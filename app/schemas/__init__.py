@@ -29,6 +29,15 @@ from app.schemas.ingredient_schema import (
     ingredient_bulk_create_schema,
     ingredient_bulk_update_schema
 )
+
+
+from app.schemas.rating_schema import (
+    rating_create_schema,
+    rating_update_schema,
+    rating_response_schema,
+    ratings_response_schema
+)
+
 __all__ = [
     'user_registration_schema',
     'user_login_schema',
@@ -54,4 +63,9 @@ __all__ = [
     'ingredients_response_schema',
     'ingredient_bulk_create_schema',
     'ingredient_bulk_update_schema',
+
+    'rating_create_schema',
+    'rating_update_schema',
+    'rating_response_schema',
+    'ratings_response_schema',
 ]
